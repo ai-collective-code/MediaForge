@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "start": "serve -s dist -l $PORT",
     "lint": "oxlint",
     "preview": "vite preview"
   },
@@ -15,6 +16,7 @@
     "@techstark/opencv-js": "^5.0.0-release.1",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
+    "serve": "^14.2.4",
     "tesseract.js": "^7.0.0"
   },
   "devDependencies": {
